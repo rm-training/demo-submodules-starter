@@ -57,6 +57,7 @@ cd main-project
 git init
 git add .
 git commit -m 'Main: First Commit'
+git config --local receive.denyCurrentBranch warn
 ```
 
 Set the configs:
